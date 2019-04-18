@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
+body{
+    font-family:'open Sans',
+    sans-serif;
+}
+
+h1,h2,h3 {
+    font-family:'Oswald'
+    sans-serif;
+}
+
+.jumbotron {
+    background-image: url('../img/healthy-foods.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#special {
+    font-size: 3em;
+    color: teal;
+}
+
+@media (min-width: 768px) {
+    @special {
+        font-size: 2em;
+        color: Purple;
+    }
+}
